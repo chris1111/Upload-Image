@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    </head>
+    <body>
+        <div id="container">
+            <div align="center">
+            <h1>Image Upload</h1>
+            <span style='font-size:100px;'>&#8681;</span>
+            </div>
+        </div>
+    </body>
+</html>
+<head>
+    <body style="background-color:#2d313a;">
+  <head>
+    <!-- Install jQuery & jQuery Uploader Plugin -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://js.upload.io/jquery-uploader/v3"></script>
+
+    <!-- Show an upload modal on button click -->
+    <script>
+      // Call once at the start of your app.
+      $.uploader.init({
+        apiKey: "free" // Your real API key.
+      });
+
+      $(() => {
+        $(".upload-btn").uploader({
+          multi: true,
+          onComplete: files => {
+            if (files.length === 0) {
+              alert('No image file selected?')
+            } else {
+              alert(files.map(f => f.fileUrl).join("\n"));
+            }
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+     <div align="center">
+         <button class="upload-btn">Select image...</button>
+     </div>
+  </body>
+</html>
