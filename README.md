@@ -1,5 +1,5 @@
 # Upload-Image
-- PNG, JPEG are accepted
+- PNG, JPEG, GIF, SVG are accepted
 
 - Credit: [Upload-js](https://upload.io/upload-js)
 
