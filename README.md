@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/6248794/209446030-2b8f4690-b77e-42fb-b
 
 #### Download ➤ [Upload Image.app](https://github.com/chris1111/Upload-Image/raw/Master/Upload-Image.zip)
 
-![Upload Image1](https://user-images.githubusercontent.com/6248794/209455646-732098a4-7bca-424a-9c15-206fc5a866bd.png)
+![Screenshot](https://user-images.githubusercontent.com/6248794/212766370-fba8baf5-4ec2-4448-8cfb-5d277ebb12c2.png)
 
 ![Capture](https://user-images.githubusercontent.com/6248794/209495443-e7a69b21-321a-4ca2-8dd6-6649f9f2952b.png)
 
